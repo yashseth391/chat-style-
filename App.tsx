@@ -1,10 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-
+import Whatsapp from './components/Whatsapp'
+import Status from './components/Status'
 export default function App() {
   return (
     <View>
-      <Text>App</Text>
+      <Whatsapp/>
+      <Status/>
     </View>
   )
 }
